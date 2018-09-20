@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: 300 1em/1.5 'Helvetica', sans-serif;
+}
+
+header, article, section, main, nav,
+h1, h2, h3, h4, h5, h6,
+p, span, img {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1em;
+    color: #333;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 .5em 1em rgba(180, 180, 180, 0.2);
+}
+
+header > .titulo {
+    font-weight: 300;
+}
